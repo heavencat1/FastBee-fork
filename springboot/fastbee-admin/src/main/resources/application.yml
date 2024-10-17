@@ -11,7 +11,7 @@ fastbee:
 
 # 开发环境配置
 server:
-  port: 8080                # 服务器的HTTP端口，默认为8080
+  port: 8088                # 服务器的HTTP端口，默认为8080
   servlet:
     context-path: /         # 应用的访问路径
   tomcat:
@@ -34,7 +34,7 @@ server:
 spring:
   # 环境配置，dev=开发环境，prod=生产环境
   profiles:
-    active: prod               # 环境配置，dev=开发环境，prod=生产环境
+    active: dev               # 环境配置，dev=开发环境，prod=生产环境
   # 资源信息
   messages:
     # 国际化资源文件路径
